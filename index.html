@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/typing.css">
+    <title>Typing_Game</title>
+</head>
+<body>
+    <section class="container">
+        <div class="header">
+                <h1>Word-Beater</h1>
+        </div>
+        <div class="info">
+            <p>Type The Given Word Within <span id="seconds" style="color: red;">5</span> Seconds:</p>
+            <h1 id="current-word" style="color: aliceblue;">hello</h1>
+            <input type="text" placeholder="Start typing..." id="word-input">
+            <h4 id="message" style="color: aliceblue;"></h4>
+        </div>
+        <div class="score">
+            <h3>Time Left: 
+                <span id="time">0</span>
+            </h3>
+            <h3>Score: 
+                    <span id="score">0</span>
+            </h3>
+            
+    <!-- Instruction -->
+            <div class="instruc">
+                <h5>Instructioins</h5>
+                <p>Type each word in the given amount of seconds
+                    score. To play again, just type the currrent word.
+                    Your score will reser</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="js/typing.js"></script>
+</body>
+</html>
